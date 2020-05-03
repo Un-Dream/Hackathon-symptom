@@ -1,12 +1,34 @@
 package com.example.testtry;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Patient{
-    public int age;
-    public double latitude;
-    public double longitude;
-    public int ESI;
-    public List<String> resources = new ArrayList<String>();
+    private int age;
+    private double latitude;
+    private double longitude;
+    private int ESI;
+
+    Patient() {
+        this.age = 220;
+        this.latitude = 0;
+        this.longitude = 0;
+    }
+
+    public double getLatitude() {
+        return latitude;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public double getLongitude() {
+        return longitude;
+    }
+
+    public int getESI() {
+        return ESI;
+    }
+
+    public void setESI(int ESI) {
+        this.ESI = ESI;
+    }
 }
