@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TestTry</string>
+    <string name="app_name">Find My Hospital</string>
     <string name="please_check_all_that_apply">Please check all that apply</string>
     <string name="was_this_patient_intubated_pre_hospital_because_of_concerns_about_the_patient_s_ability_to_maintain_a_patent_airway_spontaneously_breathe_or_maintain_oxygen_saturation">Was this patient intubated pre-hospital because of concerns about the patient\'s ability to maintain a patent airway, spontaneously breathe, or maintain oxygen saturation?</string>
     <string name="next">Next</string>

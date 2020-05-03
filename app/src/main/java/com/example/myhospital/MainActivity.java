@@ -1,4 +1,4 @@
-package com.example.testtry;
+package com.example.myhospital;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,7 +10,6 @@ import android.widget.CheckBox;
 
 
 public class MainActivity extends AppCompatActivity {
-    public Patient patient = new Patient();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if (box1.isChecked() || box2.isChecked() || box3.isChecked() || box4.isChecked() || box5.isChecked() || box6.isChecked()) {
                     openCall911();
-                    patient.setESI(1);
+                    Patient.getPatient().setESI(1);
                 } else {
                     openQuestion2();
                 }

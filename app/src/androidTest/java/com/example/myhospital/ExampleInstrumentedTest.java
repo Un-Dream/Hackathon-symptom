@@ -1,4 +1,4 @@
-package com.example.testtry;
+package com.example.myhospital;
 
 import android.content.Context;
 

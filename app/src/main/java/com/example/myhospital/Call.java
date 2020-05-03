@@ -1,4 +1,4 @@
-package com.example.testtry;
+package com.example.myhospital;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;

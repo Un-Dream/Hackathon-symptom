@@ -1,4 +1,4 @@
-package com.example.testtry;
+package com.example.myhospital;
 
 public class Hospital {
     private String name;
@@ -63,5 +63,7 @@ public class Hospital {
     public int getBlood(){return blood;}
     public int getIV_drops(){return IV_drops;}
 
-
+    public double getValue() {
+        return 0.2 * availability + 0.2 * drugs + 0.2 * blood + 0.2 * IV_drops + 0.2 * ventalitors + 0.2 * doctors + 0.2 * nurses;
+    }
 }
