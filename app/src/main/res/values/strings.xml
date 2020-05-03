@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TestTry</string>
+    <string name="please_check_all_that_apply">Please check all that apply</string>
+    <string name="was_this_patient_intubated_pre_hospital_because_of_concerns_about_the_patient_s_ability_to_maintain_a_patent_airway_spontaneously_breathe_or_maintain_oxygen_saturation">Was this patient intubated pre-hospital because of concerns about the patient\'s ability to maintain a patent airway, spontaneously breathe, or maintain oxygen saturation?</string>
+    <string name="next">Next</string>
+    <string name="does_the_patient_have_a_pulse">Does the patient have a pulse?</string>
+    <string name="does_this_patient_have_a_patent_airway">Does this patient have a patent airway</string>
+    <string name="does_the_patient_meet_any_of_the_following_criteria_already_intubated_apneic_pulseless_severe_respiratory_distress_acute_mental_status_changes_or_unresponsive">Does the patient meet any of the following criteria: already intubated, apneic, pulseless, severe respiratory distress, acute mental status changes, or unresponsive?</string>
+    <string name="does_the_patient_require_an_immediate_medication_or_other_hemodynamic_intervention_such_as_volume_replacement_or_blood">Does the patient require an immediate medication, or other hemodynamic intervention such as volume replacement or blood?</string>
+    <string name="is_the_patient_breathing">Is the patient breathing?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="call_911">Call 911</string>
+</resources>
