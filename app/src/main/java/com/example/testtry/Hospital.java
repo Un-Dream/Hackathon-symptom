@@ -7,14 +7,30 @@ public class Hospital {
     private float latitude;
     private float longitude;
     private int capacity;
-    /* TODO Morgan add other fields */
+    private int patients;
+    private int nurses;
+    private int doctors;
+    private int availability;
+    private int ventalitors;
+    private int drugs;
+    private int blood;
+    private int IV_drops;
 
-    Hospital(String name, String address, String postalCode, float latitude) { // TODO Add rest
+    Hospital(String name, String address, String postalCode, float latitude, float longitude, int capacity, int patients, int nurses, int doctors, int availability, int ventalitors, int drugs, int blood, int IV_drugs) {
         this.name = name;
         this.address = address;
         this.postalCode = postalCode;
         this.latitude = latitude;
-        // TODO continue
+        this.longitude = longitude;
+        this.capacity = capacity;
+        this.patients = patients;
+        this.nurses = nurses;
+        this.doctors = doctors;
+        this.availability = availability;
+        this.ventalitors = ventalitors;
+        this.drugs = drugs;
+        this.blood = blood;
+        this.IV_drops = IV_drugs;
     }
 
     public float getLatitude() {
@@ -33,13 +49,19 @@ public class Hospital {
         return name;
     }
 
-    public String getAddress() {
-        return address;
-    }
+    public String getAddress() {return address;}
 
-    public String getPostalCode() {
-        return postalCode;
-    }
+    public String getPostalCode() {return postalCode;}
+    public int getCapcity() {return capacity;}
 
-    // TODO continue
+    public int getPatients(){ return patients;}
+    public int getNurses(){return nurses;}
+    public int getDoctors(){ return doctors;}
+    public int getAvailability(){ return availability;}
+    public int getVentalitors(){return ventalitors;}
+    public int getDrugs(){return drugs;}
+    public int getBlood(){return blood;}
+    public int getIV_drops(){return IV_drops;}
+
+
 }
